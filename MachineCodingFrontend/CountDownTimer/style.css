@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+}
+.time_labels{
+    display: flex;
+    gap:6rem;
+    flex-direction: row;
+}
+.button_container{
+    display: flex;
+    gap:1rem;
+    flex-direction: row;
+    padding-top: 1rem;
+}
+imput{
+    font-size: 20px;
+}
+.btn{
+    padding: 5px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

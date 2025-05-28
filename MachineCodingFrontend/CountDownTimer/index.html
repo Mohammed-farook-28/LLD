@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./reset.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="color: purple;">Count Down Timer</h1>
+      <div class="time_labels">
+        <h2>Hours</h2>
+        <h2>Minutes</h2>
+        <h2>Seconds</h2>
+      </div>
+      <div class="time_container">
+        <input id='hr' type="number" placeholder="00" />
+        <span>:</span>
+        <input id="min" type="number" placeholder="00" />
+        <span>:</span>
+        <input id="sec" type="number" placeholder="00" />
+      </div>
+      <div class="button_container">
+        <button class="btn" id="start">Start</button>
+        <button class="btn" id="stop"> Stop</button>
+        <button class="btn" id="reset">Reset</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
