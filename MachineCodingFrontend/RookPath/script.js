@@ -29,10 +29,10 @@ function makeRed(elementId) {
     const [startRow, startCol] = getRowCol(elementId);
 
     const dir = [
-        [-1, -1], 
-        [-1, 1],
-        [1, -1],
-        [1, 1] 
+         [-1, 0],
+        [0 , -1],
+        [0 , 1],
+        [1 , 0]
     ];
 
     for (const [dr, dc] of dir) {
