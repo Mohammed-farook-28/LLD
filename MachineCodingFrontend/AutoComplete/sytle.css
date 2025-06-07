@@ -1,0 +1,18 @@
+.container{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+input{
+    border-radius: 10px;
+    width: 40vh;
+    height: 3vh;
+}
+
+.suggestion{
+    justify-items: center;
+    border: 2px solid black ;
+    margin-top: 10px;
+    width: 60vh;
+}
