@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+   <div class="header">
+    <h1 style="color: #FF5C00; margin-left: 10px;"> KanBan Board </h1>
+    <div class="colors">
+        <div class="color pink"></div>
+        <div class="color blue"></div>
+        <div class="color purple"></div>
+        <div class="color green"></div>
+    </div>
+    <div class="util">
+        <div class="add"><i class="fa-solid fa-plus"></i></div>
+        <div class="delete"><i class="fa-solid fa-trash"></i></div>
+    </div>
+    
+   </div>
+   <div class="main">
+    <div class="task_header">
+        <div class="types not_started">
+            Yet to Start
+        </div>
+        <div class="types brain_storming">
+            Brain Storming
+        </div>
+        <div class="types onProgress">
+            In Progress
+        </div>
+        <div class="types completed">
+            Completed
+        </div>
+    </div>
+    <div class="task_content">
+         <div class="content_type not_started_content">
+            
+         </div>
+        <div class="content_type brain_storming_content">
+          
+        </div>
+        <div class="content_type onProgress_content">
+            
+        </div>
+        <div class="content_type completed_content">
+           
+        </div>
+    </div>
+    <div class="model_container">
+        <div class="text_areas">
+             <textarea class="model_textarea_title" placeholder="Enter Your Title"></textarea>
+            <textarea class="model_textarea_description" placeholder="Enter Your Description"></textarea>
+        </div>
+       
+        <div class="priorityClrContainer">
+            <div class="priorityClr pink active"></div>
+            <div class="priorityClr blue"></div>
+            <div class="priorityClr purple"></div>
+            <div class="priorityClr green"></div>
+        </div>
+    </div>
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/short-unique-id@5.3.2/dist/short-unique-id.min.js"></script>
+    <script src="script.js"></scripT>
+</body>
+</html>

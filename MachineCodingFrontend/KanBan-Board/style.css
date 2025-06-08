@@ -1,0 +1,207 @@
+:root{
+    --pink: #ff69b4;
+    --blue: #1e90ff;
+    --green: #32cd32;
+    --yellow: #ffd700;
+    --red: #ff4500;
+    --purple: purple;
+}
+
+
+.header{
+    display: flex;
+    gap:100px;
+    height: 5rem;
+    position: sticky;
+    background-color: black;
+    top: 0;
+    z-index: 1000;
+
+}
+.colors, .util{
+    background-color: grey;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 10%;
+    align-items: center;
+    height: 3rem;
+    margin-top: 5px;
+    justify-content: space-evenly;
+}
+.color{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.pink{
+    background-color: var(--pink);
+}
+.blue{
+    background-color: var(--blue);
+}
+.purple{
+    background-color: var(--purple);
+}
+.green{
+    background-color: var(--green);
+}
+.add, .delete{
+    color: #FF5C00;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+.task_header {
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    size: 100vh;
+    height:  10vh;
+    color: #FF5C00   ;
+
+    background-color: white;
+    align-items: center;
+
+}
+.task_content{
+      font-size: large;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    size: 100vh;
+    height:  100vh;
+    background-color: white;
+    align-items: center;
+    
+
+}
+.types{
+    background-color: black;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 10%;
+    height: 50%;
+    position: sticky;
+    top: 5rem;
+    z-index: 999;
+}
+.content_type{
+    padding: 10px;
+    border-right: 5px solid grey;
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+.completed_content{
+    border-right: solid 5px white
+}
+
+.ticket{
+    height: 13rem;
+    width: 17rem;
+    border: 2px solid black;
+    position: relative;
+    
+}
+.ticket_priority{
+    height: 10%;    
+    display: flex;
+}
+
+.ticketId{
+    padding-left: 1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    height: 1rem;
+}
+
+.ticket_title{
+    font-size: 1.5rem;
+    font-weight: 600; 
+    padding: 5px;
+}
+.ticket_description{
+    font-size: 1rem;
+    padding: 5px;
+    font-weight: 400;
+    height: 50%;
+}
+.lock_unlock_btn{
+    position: absolute;
+    bottom: 2px;
+    right: 10px;
+}
+.model_container{
+    border: none;
+    position: fixed;
+    height: 50vh;
+    width: 50vw;
+    top:25%;
+    left: 25%;
+    background-color: black;
+    display: none;
+     box-shadow: 10px 10px 8px 10px #888888;
+}
+
+.priorityClr{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    display: flex;
+    
+    border:white 3px solid;
+
+}
+
+.text_areas{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+}
+.priorityClrContainer{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    gap:2px;
+    width: 25%;
+ 
+    
+}
+.model_textarea_title{
+    height: 10%;
+    width: 100%;
+    resize: none;
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}
+
+.model_textarea_description{
+    height: 90%;
+    width: 100%;
+    resize: none;
+    font-size: large;
+    font-weight: 400;
+}
+
+.active{
+    border: 5px solid #FF5C00;
+}
